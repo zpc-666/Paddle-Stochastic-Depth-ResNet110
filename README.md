@@ -13,7 +13,14 @@
 原论文实现：test error:5.25%
 pytorch复现：test error:4.97%
 paddle实现：test error:5.73%
+### 训练loss图
 
+![](https://github.com/zpc-666/Paddle-Stochastic-Depth-ResNet110/blob/main/images/train1.PNG)
+
+### val acc 图
+由于test acc只在最后使用最好val acc的模型评估一次，故只能以val acc图代替
+
+![](https://github.com/zpc-666/Paddle-Stochastic-Depth-ResNet110/blob/main/images/val1.PNG)
 
 ## 三、数据集
 根据复现要求我们用的是[Cifar10](https://aistudio.baidu.com/aistudio/datasetdetail/103297)数据集。
