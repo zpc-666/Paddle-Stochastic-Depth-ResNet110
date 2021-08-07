@@ -27,7 +27,7 @@
             <td>无</td>
         </tr>
         <tr>
-            <td>pytorch复现</td>
+            <td>pytorch复现（目录下已提供源码）</td>
             <td>4.97%</td>
             <td>95.03%</td>
             <td>https://pan.baidu.com/s/1d0PX45K73JHFeHc19X0eTA</td>
