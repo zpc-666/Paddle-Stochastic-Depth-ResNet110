@@ -37,10 +37,18 @@
             <td>5.23%</td>
             <td>94.77%</td>
             <td>https://pan.baidu.com/s/1Kzd_bQDVbHIL7J0-NZWkqw</td>
+          </tr>
+         <tr>
+            <td>paddle实现（不按照论文训练、验证、测试划分）</td>
+            <td>5.12%</td>
+            <td>94.88%</td>
+            <td>https://pan.baidu.com/s/1w5YQhEyASPNPHTDPJFJswA</td>
         </tr>
     </tbody>
 </table>
 模型权重提取码：zpc6 项目AI Studio平台链接：https://aistudio.baidu.com/aistudio/projectdetail/2260327
+
+#### 注意：我们完全按照论文的实现是 paddle实现 这一栏，最后一栏的实现只有数据集划分不一样（即传统的数据集划分（50000训练集、10000测试集，无验证集），这与原文其实不符）
 
 ### 训练loss图
 
@@ -50,6 +58,8 @@
 由于test acc只在最后使用最好val acc的模型评估一次，故只能以val acc图代替（val_acc很高，最高95.7%）
 
 ![](https://github.com/zpc-666/Paddle-Stochastic-Depth-ResNet110/blob/main/images/val_acc.PNG)
+
+
 
 ## 三、数据集
 根据复现要求我们用的是[Cifar10](https://aistudio.baidu.com/aistudio/datasetdetail/103297)数据集。
