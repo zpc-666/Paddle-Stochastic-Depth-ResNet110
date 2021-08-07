@@ -22,6 +22,7 @@ paddle实现：test error:5.73%
 
 ![](https://github.com/zpc-666/Paddle-Stochastic-Depth-ResNet110/blob/main/images/val1.PNG)
 
+模型权重：链接：https://pan.baidu.com/s/1P-PtARUh12eeJ4wgDposzQ  提取码：6lvf 
 ## 三、数据集
 根据复现要求我们用的是[Cifar10](https://aistudio.baidu.com/aistudio/datasetdetail/103297)数据集。
 * 数据集大小：10类别，训练集有50000张图片。测试集有10000张图片，图像大小为32x32，彩色图像；
