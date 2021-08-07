@@ -10,6 +10,10 @@
 ![](https://github.com/zpc-666/Paddle-Stochastic-Depth-ResNet110/blob/main/images/2243.PNG)
 ## 二、复现精度
 本次比赛的验收标准： CIFAR-10 test error=5.25 （论文指标）。我们的复现结果对比如下所示：
+原论文实现：test error:5.25%
+pytorch复现：test error:4.97%
+paddle实现：test error:5.73%
+
 
 ## 三、数据集
 根据复现要求我们用的是[Cifar10](https://aistudio.baidu.com/aistudio/datasetdetail/103297)数据集。
@@ -60,4 +64,5 @@ cofig.py中提供了论文中提到的默认配置，故以下只按默认配置
 ```
 
 ## 六、代码结构与详细说明
-  几乎完全参考https://github.com/PaddlePaddle/Contrib/wiki/Contrib-%E4%BB%A3%E7%A0%81%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83，参数详解见config.py每个参数的help信息。
+  几乎完全参考https://github.com/PaddlePaddle/Contrib/wiki/Contrib-%E4%BB%A3%E7%A0%81%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83
+  参数详解见config.py每个参数的help信息。
