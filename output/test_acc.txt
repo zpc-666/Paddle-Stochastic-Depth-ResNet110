@@ -1,1 +1,1 @@
-test_acc:94.27
+test_acc:94.77
