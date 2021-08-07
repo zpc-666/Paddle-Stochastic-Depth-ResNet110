@@ -10,19 +10,47 @@
 ![](https://github.com/zpc-666/Paddle-Stochastic-Depth-ResNet110/blob/main/images/2243.PNG)
 ## 二、复现精度
 本次比赛的验收标准： CIFAR-10 test error=5.25 （论文指标）。我们的复现结果对比如下所示：
-原论文实现：test error:5.25%
-pytorch复现：test error:4.97%
-paddle实现：test error:5.73%
+<table>
+    <thead>
+        <tr>
+            <th>来源</th>
+            <th>test error</th>
+            <th>test acc</th>
+            <th>模型权重</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>原论文实现（指标）</td>
+            <td>5.25%</td>
+            <td>94.75%</td>
+            <td>无</td>
+        </tr>
+        <tr>
+            <td>pytorch复现</td>
+            <td>4.97%</td>
+            <td>95.03%</td>
+            <td>https://pan.baidu.com/s/1d0PX45K73JHFeHc19X0eTA</td>
+        </tr>
+        <tr>
+            <td>paddle实现</td>
+            <td>5.23%</td>
+            <td>94.77%</td>
+            <td>https://pan.baidu.com/s/1Kzd_bQDVbHIL7J0-NZWkqw</td>
+        </tr>
+    </tbody>
+</table>
+模型权重提取码：zpc6 项目AI Studio平台链接：https://aistudio.baidu.com/aistudio/projectdetail/2260327
+
 ### 训练loss图
 
-![](https://github.com/zpc-666/Paddle-Stochastic-Depth-ResNet110/blob/main/images/train1.PNG)
+![](https://github.com/zpc-666/Paddle-Stochastic-Depth-ResNet110/blob/main/images/train_loss.PNG)
 
 ### val acc 图
-由于test acc只在最后使用最好val acc的模型评估一次，故只能以val acc图代替
+由于test acc只在最后使用最好val acc的模型评估一次，故只能以val acc图代替（val_acc很高，最高95.7%）
 
-![](https://github.com/zpc-666/Paddle-Stochastic-Depth-ResNet110/blob/main/images/val1.PNG)
+![](https://github.com/zpc-666/Paddle-Stochastic-Depth-ResNet110/blob/main/images/val_acc.PNG)
 
-模型权重：链接：https://pan.baidu.com/s/1P-PtARUh12eeJ4wgDposzQ  提取码：6lvf 
 ## 三、数据集
 根据复现要求我们用的是[Cifar10](https://aistudio.baidu.com/aistudio/datasetdetail/103297)数据集。
 * 数据集大小：10类别，训练集有50000张图片。测试集有10000张图片，图像大小为32x32，彩色图像；
