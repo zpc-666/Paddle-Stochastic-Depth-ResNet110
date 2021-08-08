@@ -46,9 +46,12 @@
         </tr>
     </tbody>
 </table>
-模型权重提取码：zpc6 项目AI Studio平台链接：https://aistudio.baidu.com/aistudio/projectdetail/2260327
+模型权重提取码：zpc6  项目AI Studio平台链接：https://aistudio.baidu.com/aistudio/projectdetail/2260327 （国内上github太痛苦，现在的完整版已上传，如果有进一步的更新会发布在AI Studio）
 
 #### 注意：我们完全按照论文的实现是 paddle实现 这一栏，最后一栏的实现只有数据集划分不一样（即传统的数据集划分（50000训练集、10000测试集，无验证集），这与原文其实不符）
+
+#### Known Problems（来自作者所说，我们的代码也是这样）
+>  	It is normal to get a +/- 0.2% difference from our reported results on CIFAR-10, and analogously for the other datasets. Networks are initialized differently, and most importantly, the validation set is chosen at random (determined by your seed).
 
 ### 训练loss图
 
@@ -118,3 +121,4 @@ cofig.py中提供了论文中提到的默认配置，故以下只按默认配置
   * 官方实现 https://github.com/yueatsprograms/Stochastic_Depth
   * 与论文描述比较相符的非官方实现 https://github.com/shamangary/Pytorch-Stochastic-Depth-Resnet
   * 论文 https://arxiv.org/pdf/1603.09382v3.pdf
+  * 作者推荐的pytorch实现https://github.com/felixgwu/img_classification_pk_pytorch （对比了与我们的很相似）
