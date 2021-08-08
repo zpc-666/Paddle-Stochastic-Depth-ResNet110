@@ -113,7 +113,7 @@ cofig.py中提供了论文中提到的默认配置，故以下只按默认配置
   几乎完全参考https://github.com/PaddlePaddle/Contrib/wiki/Contrib-%E4%BB%A3%E7%A0%81%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83
   参数详解见config.py每个参数的help信息。
 
-## 七 参考
+## 七、 参考
   并没有按照比赛提供的参考实现 [pytorch-image-models](https://github.com/rwightman/pytorch-image-models) 中的DropPath来写，因为对比了论文描述和作者实现，发现并不相符。
   * 官方实现 https://github.com/yueatsprograms/Stochastic_Depth
   * 与论文描述比较相符的非官方实现 https://github.com/shamangary/Pytorch-Stochastic-Depth-Resnet
