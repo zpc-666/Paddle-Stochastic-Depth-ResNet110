@@ -34,19 +34,19 @@
         </tr>
         <tr>
             <td>paddle实现</td>
-            <td>5.23%</td>
-            <td>94.77%</td>
-            <td>https://pan.baidu.com/s/1Kzd_bQDVbHIL7J0-NZWkqw</td>
+            <td>等待</td>
+            <td>等待</td>
+            <td>等待</td>
           </tr>
          <tr>
             <td>paddle实现（不按照论文训练、验证、测试划分，随机数种子2021，两次实验结果）</td>
-           <td>5.12% 5.03%</td>
-            <td>94.88% 94.97%</td>
-            <td>https://pan.baidu.com/s/1w5YQhEyASPNPHTDPJFJswA https://pan.baidu.com/s/1YbnfoPQcNqPSh7cTyk3fhw</td>
+           <td>敬请期待</td>
+            <td>敬请期待</td>
+            <td>敬请期待</td>
         </tr>
     </tbody>
 </table>
-模型权重提取码：zpc6  项目AI Studio平台链接：https://aistudio.baidu.com/aistudio/projectdetail/2260327 （国内上github太痛苦，8月8号凌晨之前的完整版已上传，最新的更新（最后一栏验证集划分与否、以及是否使用论文作者推荐的pytorch实现版本（见七、参考，我们默认使用论文实现）的代码）已发布在AI Studio）
+模型权重提取码：zpc6  项目AI Studio平台链接：https://aistudio.baidu.com/aistudio/projectdetail/2260327 （国内上github太痛苦，完整版已上传，最新的更新会先发布在AI Studio）
 
 #### 注意：我们完全按照论文的实现是 paddle实现 这一栏，最后一栏的实现只有数据集划分不一样（即传统的数据集划分（50000训练集、10000测试集，无验证集），这与原文其实不符）
 
