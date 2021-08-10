@@ -30,13 +30,13 @@
             <td>pytorch复现（目录下已提供源码）</td>
             <td>4.97%</td>
             <td>95.03%</td>
-            <td>https://pan.baidu.com/s/1d0PX45K73JHFeHc19X0eTA</td>
+            <td>https://pan.baidu.com/s/1YD-ht5RijhX2DPxXsVKMkA</td>
         </tr>
         <tr>
             <td>paddle实现</td>
             <td>等待</td>
             <td>等待</td>
-            <td>等待</td>
+            <td>https://pan.baidu.com/s/17wcQ2bO3m5OR2ZxP74Lgsg</td>
           </tr>
          <tr>
             <td>paddle实现（不按照论文训练、验证、测试划分，随机数种子2021，两次实验结果）</td>
