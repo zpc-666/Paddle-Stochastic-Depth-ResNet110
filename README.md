@@ -34,8 +34,8 @@
         </tr>
         <tr>
             <td>paddle实现</td>
-            <td>等待</td>
-            <td>等待</td>
+            <td>5.16%</td>
+            <td>94.84%</td>
             <td>https://pan.baidu.com/s/17wcQ2bO3m5OR2ZxP74Lgsg</td>
           </tr>
          <tr>
@@ -46,21 +46,17 @@
         </tr>
     </tbody>
 </table>
-模型权重提取码：zpc6  项目AI Studio平台链接：https://aistudio.baidu.com/aistudio/projectdetail/2260327 （国内上github太痛苦，完整版已上传，最新的更新会先发布在AI Studio）
+模型权重提取码：zpc6  项目AI Studio平台链接：https://aistudio.baidu.com/aistudio/projectdetail/2272807 （国内上github太痛苦，完整版已上传，最新的更新会先发布在AI Studio）
 
 #### 注意：我们完全按照论文的实现是 paddle实现 这一栏，最后一栏的实现只有数据集划分不一样（即传统的数据集划分（50000训练集、10000测试集，无验证集），这与原文其实不符）
 
 #### Known Problems（来自作者所说，我们的代码也是这样）
 >  	It is normal to get a +/- 0.2% difference from our reported results on CIFAR-10, and analogously for the other datasets. Networks are initialized differently, and most importantly, the validation set is chosen at random (determined by your seed).
 
-### 训练loss图
-
-![](https://github.com/zpc-666/Paddle-Stochastic-Depth-ResNet110/blob/main/images/train_loss.PNG)
-
 ### val acc 图
-由于test acc只在最后使用最好val acc的模型评估一次，故只能以val acc图代替（val_acc很高，最高95.7%）
+由于test acc只在最后使用最好val acc的模型评估一次，故只能以val acc图代替（val_acc很高，最高95.22%，因为是隔五次epochs评估一次，所以不太平滑）
 
-![](https://github.com/zpc-666/Paddle-Stochastic-Depth-ResNet110/blob/main/images/val_acc.PNG)
+![](https://github.com/zpc-666/Paddle-Stochastic-Depth-ResNet110/blob/main/images/eval_acc.PNG)
 
 
 
