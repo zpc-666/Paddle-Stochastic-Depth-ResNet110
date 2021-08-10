@@ -25,7 +25,7 @@ def evaluate(args):
         root = os.path.join(args.data_dir, args.dataset, 'cifar-10-python.tar.gz')
     print(args)
     model = importlib.import_module('models.__init__').__dict__[args.net](
-        None, drop_path_rate=args.drop_path_rate, use_drop_path=args.use_drop_path, use_official_implement=args.use_official_implement)
+        args.checkpoint, drop_path_rate=args.drop_path_rate, use_drop_path=args.use_drop_path, use_official_implement=args.use_official_implement)
 
     train_loader, val_loader, test_loader = importlib.import_module(
         'dataset.' + args.dataset).__dict__['load_data'](root, args.train_batch_size,
